@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# KnowAI
+KnowAI is an educational web interface aimed to enlighten individuals on the need of trustworthy AI by providing them with an opportunity to try interactive tutorials. The website mainly focuses on explaining image and text classification models with the help of Local Interpretable Model-Agnostic Explanations (LIME) an Explainable AI algorithm.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Setup
+-------
 
-## Available Scripts
+#### Frontend
 
-In the project directory, you can run:
+`npm install`
 
-### `npm start`
+1. Clone the repository
+2. Navigate to the cloned repository folder in terminal.
+3. Run 'npm install' in terminal (node_modules folder is created)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`npm start`
+- To start the React App run 'npm start'.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Backend
 
-### `npm test`
+1. Download the zipped folder containing backend codes (3.5GB) from this [link](https://drive.google.com/drive/folders/1JV3CmWSfJdhXxUFju_Up5qUm3F2a48B5?usp=sharing).
+2. Place the backend folder into the cloned repository folder.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+knowAI_fyp22
+└───backend
+└───node_modules
+└───public
+│   └───fonts
+|   └───images
+└───src
+```
 
-### `npm run build`
+### Run
+-------
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Open 2 tabs of terminals (navigated to the project folder).
+2. Run the codes below in the 2 terminals respectively.
+```
+npm start
+```
+```
+uvicorn main:app --reload --host localhost
+```
+3. Wait for the website to load as shown in the image below.
+![img](/readme_images/frontpage.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. All tutorials are available if folders are placed in the right order.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Citations
 
-### `npm run eject`
+1. Original Backend codes for Object Detection can be found [here](https://github.com/shijx12/XNM-Net) - eXplainable and eXplicit Neural Modules
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Explainable AI packages explored
+- [LIME](https://github.com/marcotcr/lime)
+- [LRP](https://github.com/sebastian-lapuschkin/lrp_toolbox)

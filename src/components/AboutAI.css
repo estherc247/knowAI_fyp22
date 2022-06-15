@@ -1,0 +1,97 @@
+.about-div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.heading >h1{
+  padding: 10px;
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+.page-1{
+  display: flex;
+  width: 80%;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-1 >h2{
+  padding: 10px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 40px;
+}
+
+.text-1>p{
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.page-2{
+  display: flex;
+  width: 80%;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-2 >h2{
+  padding: 10px;
+  font-size: 40px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.text-2 >p{
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.page-3{
+  display: flex;
+  width: 80%;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-3 >h2{
+  padding: 10px;
+  font-size: 40px;
+  padding: 10px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.text-3 >p{
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.page-4{
+  display: flex;
+  width: 80%;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-4 >h2{
+  padding: 10px;
+  font-size: 40px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.text-4 >p{
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+}

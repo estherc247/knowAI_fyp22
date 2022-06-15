@@ -1,0 +1,1 @@
+{"image_name": "frog.jpg", "prediction_results": [{"item_class_1": "tailed_frog", "item_value_1": "51.97"}, {"item_class_2": "tree_frog", "item_value_2": "18.29"}, {"item_class_3": "common_newt", "item_value_3": "16.15"}, {"item_class_4": "banded_gecko", "item_value_4": "1.77"}, {"item_class_5": "eft", "item_value_5": "1.37"}]}

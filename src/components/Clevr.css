@@ -1,0 +1,195 @@
+.CLEVR-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+  }
+
+  .CLEVR-heading{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+  }
+
+  .CLEVR-heading >h1{
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 50px;
+  }
+
+  .CLEVR-art{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .CLEVR-p>p{
+    padding-left: 10px;
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+
+  .sel-number{
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    object-fit: contain;
+  }
+
+  .num-exp{
+      width: 60vh;
+  }
+
+  .num-exp>h3{
+    font-size: 25px;
+  }
+
+  .num-exp>p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  .num-inp{
+      display: flex;
+      flex-direction: row;
+      width: 40vh;
+      justify-content: space-evenly;
+  }
+
+  .num-inp>input{
+    width: 40%;
+    height: 40px;
+    word-wrap: normal;
+    text-align: center;
+  }
+
+.inp-btn{
+  background-color: #fce6f1;
+  color: #965978;
+  border: 1px solid #fce6f1;
+  padding: 8px 20px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.inp-btn:hover{
+  background: #fff;
+  color: #965978;
+  transition: all 0.3s ease-out;
+}
+
+.get-img{
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    object-fit: contain;
+}
+
+.get-q{
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    object-fit: contain;
+}
+
+.num-exp-user>h3{
+  font-size: 25px;
+}
+
+.num-exp-user>p{
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-style: oblique;
+  font-family: 'Poiret One', cursive;
+}
+
+.num-exp-user>h4{
+  margin-top: 10px;
+  font-size: 20px;
+  font-style: oblique;
+}
+
+.user-values{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-values>input{
+  width: 25vh;
+  height: 6vh;
+  font-size: 20px;
+  align-content: center;
+  word-wrap: normal;
+}
+
+.user-values>button{
+  background-color: #965978;
+  color: #fce6f1;
+  border: 1px solid #965978;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 3px;
+  margin-left: 8px;
+}
+
+.user-values>button:hover{
+  background: #fff;
+  color: #965978;
+  transition: all 0.3s ease-out;
+}
+
+
+.get-exp{
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    object-fit: contain;
+}
+
+.next-inst{
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-btn{
+  background-color: #965978;
+  color: #fce6f1;
+  border: 1px solid #965978;
+  padding: 8px 20px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.next-btn:hover{
+  background: #fff;
+  color: #965978;
+  transition: all 0.3s ease-out;
+}

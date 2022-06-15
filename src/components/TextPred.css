@@ -1,0 +1,111 @@
+.text-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.text-heading{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.text-heading >h1{
+  padding: 10px;
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+.text-art{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.text-p>p{
+  padding-left: 10px;
+  font-size: 25px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.text-intro{
+  width: 80%;
+  height: 80%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20vh;
+}
+
+.text-inp{
+  width: 80vh;
+}
+
+.text-inp >h3{
+  font-size: 25px;
+}
+.text-inp>p{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Rajdhani', sans-serif;
+}
+.text-inp>input{
+  width: 80%;
+  height: 100px;
+  word-wrap: normal;
+}
+.text-inp>p{
+  font-size: 20px;
+  width: 80%
+}
+
+.text-btn{
+  margin-left: 50px;
+  padding: 10px;
+}
+.check-btn{
+  background-color: #abd9ff;
+  color: black;
+  border: 1px solid #abd9ff;
+  padding: 8px 20px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.class-btn{
+  background-color: #547c9e;
+  color: #fff;
+  border: 1px solid #547c9e;
+  padding: 8px 20px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.check-btn:hover, .class-btn:hover{
+  background: #fff;
+  color: #547c9e;
+  transition: all 0.3s ease-out;
+}
+
+.text-print{
+  width: 80vh;
+}
+.text-print>h3{
+  font-size: 30px;
+  margin-left: 22vh;
+}
+
+.text-print>img{
+  width: 100%;
+}
